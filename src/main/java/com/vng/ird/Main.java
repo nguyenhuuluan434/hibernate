@@ -9,6 +9,7 @@ public class Main {
 		// TODO Auto-generated method stub
 		SessionFactory sessionFactory = HibernateUtil.getSession();
 		Session session = sessionFactory.openSession();
+		session.close();
 	}
 
 }
